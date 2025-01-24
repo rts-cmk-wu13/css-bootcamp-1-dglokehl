@@ -48,7 +48,7 @@ h2 {
     font-size: 2rem;
     font-weight: 700;
 
-    padding-bottom: 0.7rem;
+    padding-bottom: 0.5rem;
 }
 h3 {
     font-size: 1.5rem;
@@ -61,6 +61,10 @@ h4 {
     font-weight: 600;
 
     padding-bottom: 0.7rem;
+}
+
+article p {
+    padding-top: 0.5rem;
 }
 
 strong {
@@ -144,6 +148,14 @@ article {
     padding: 1rem;
 }
 
+article a {
+    display: inline-block;
+
+    text-decoration: underline;
+
+    margin-top: 1rem;
+}
+
 
 
 /* FOOTER */
@@ -161,16 +173,32 @@ address {
     margin: 2rem 0;
 }
 
+form {
+    max-width: 40rem;
+
+    margin: 0 auto;
+}
+
 label {
     display: block;
     margin-bottom: 0.3rem;
 }
 
 input {
+    width: 100%;
     height: 2rem;
     display: block;
 
     font-size: 1rem;
 
+    padding: 0 0.5rem;
     margin-bottom: 0.9rem;
+}
+
+input[type="submit"] {
+    width: 10rem;
+    height: 2.5rem;
+
+    padding: 0;
+    margin: 0 auto;
 }
