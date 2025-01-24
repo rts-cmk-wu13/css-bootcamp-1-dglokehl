@@ -41,21 +41,26 @@ h1 {
     font-size: 4rem;
     font-weight: 600;
     text-align: center;
+
     padding-bottom: 1.5rem;
 }
 h2 {
     font-size: 2rem;
     font-weight: 700;
+
     padding-bottom: 0.7rem;
 }
 h3 {
     font-size: 1.5rem;
     font-weight: 600;
+
     padding-bottom: 0.5rem;
 }
 h4 {
-    font-size: 1.2rem;
-    padding-bottom: 0.5rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+
+    padding-bottom: 0.7rem;
 }
 
 strong {
@@ -65,28 +70,41 @@ strong {
 figcaption {
     font-size: 0.9rem;
     text-align: center;
+
     margin-top: 0.5rem;
 }
 
 
 /* HEADER */
 
-header div {
-    margin-top: 2rem;
+header {
+    max-width: 85rem;
+
+    margin: 6rem auto 0;
 }
+
 
 
 /* NAV / MENU */
 
 menu {
     height: 3.5rem;
+
     display: flex;
     justify-content: space-around;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    background-color: #d8d4e8;
 }
 
 menu li {
     height: 100%;
     align-content: center;
+
     padding: 0 1.5rem;
 }
 
@@ -100,11 +118,16 @@ menu li:last-of-type {
 
 main {
     max-width: 75rem;
+
     margin: 5rem auto;
 }
 
 section {
+    border-radius: 10px;
+    background-color: #fff;
+
     padding: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 aside {
@@ -112,8 +135,13 @@ aside {
 }
 
 article {
-    display: inline-block;
     width: 33%;
+    display: inline-block;
+
+    border-radius: 10px;
+    background-color: #fff;
+
+    padding: 1rem;
 }
 
 
@@ -122,11 +150,27 @@ article {
 
 footer {
     max-width: 75rem;
+
     margin: 0 auto;
 }
 
 address {
     font-size: 0.9rem;
     text-align: center;
+
     margin: 2rem 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.3rem;
+}
+
+input {
+    height: 2rem;
+    display: block;
+
+    font-size: 1rem;
+
+    margin-bottom: 0.9rem;
 }
